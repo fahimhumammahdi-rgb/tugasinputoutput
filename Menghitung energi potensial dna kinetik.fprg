@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Menghitung energi potensial dna kinetik"/>
+        <attribute name="authors" value="DELL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-14 03:47:36 PM"/>
+        <attribute name="created" value="REVMTDtERVNLVE9QLVVVMlFMUFE7MjAyNS0wOS0xNDswMjoxNTowOCBQTTsyNjkz"/>
+        <attribute name="edited" value="REVMTDtERVNLVE9QLVVVMlFMUFE7MjAyNS0wOS0xNDswMzo0NzozNiBQTTsyOzI4MDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="massa, kecepatan, tinggi, ep, ek, em" type="Real" array="False" size=""/>
+            <output expression="&quot;Masukkan massa : &quot;" newline="True"/>
+            <input variable="massa"/>
+            <output expression="&quot;Masukkan kecepatan: &quot;" newline="True"/>
+            <input variable="kecepatan"/>
+            <output expression="&quot;Masukkan tinggi : &quot;" newline="True"/>
+            <input variable="tinggi"/>
+            <assign variable="ep" expression="massa * 10 * tinggi"/>
+            <assign variable="ek" expression="(massa * kecepatan * kecepatan) / 2"/>
+            <assign variable="em" expression="ep+ek"/>
+            <output expression="&quot;massa = &quot;" newline="True"/>
+            <output expression="massa" newline="True"/>
+            <output expression="&quot;kecepatan : &quot;" newline="True"/>
+            <output expression="kecepatan" newline="True"/>
+            <output expression="&quot;tinggi : &quot;" newline="True"/>
+            <output expression="tinggi" newline="True"/>
+            <output expression="&quot;Energi potensial : &quot;" newline="True"/>
+            <output expression="ep" newline="True"/>
+            <output expression="&quot;Enerhi kinetik : &quot;" newline="True"/>
+            <output expression="ek" newline="True"/>
+            <output expression="&quot;Enerhi mekanik : &quot;" newline="True"/>
+            <output expression="em" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
